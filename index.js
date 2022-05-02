@@ -17,7 +17,7 @@ if ( process.platform !== 'win32' ) {
  * @param {String} iconPath Path to icon
  */
 module.exports = iconPath => new Promise( ( resolve , reject ) => {
-	exec( path.join( __dirname , 'extractor.exe' ) + ' ' + iconPath , ( error , stdout ) => {
+	exec( path.join( __dirname , 'extractor.exe' ) + ' "' + iconPath + '"' , ( error , stdout ) => {
 		if ( error ) {
 			reject( error ) ;
 			return ;

@@ -1,6 +1,6 @@
 {
   "name": "@cronvel/icon256",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Extract 256x256 icon png from a file",
   "main": "index.js",
   "os": [
@@ -24,6 +24,10 @@
     "base64",
     "Windows"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Loekaars",
   "license": "ISC"
 }
