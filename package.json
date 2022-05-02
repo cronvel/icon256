@@ -1,5 +1,5 @@
 {
-	"name": "icon256",
+	"name": "@cronvel/icon256",
 	"version": "1.2.5",
 	"description": "Extract 256x256 icon png from a file",
 	"main": "index.js",
